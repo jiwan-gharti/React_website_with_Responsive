@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #3498db !important;
+}
+.brand_decoration{
+  color: black;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+.navbar li:hover{
+  color: #3498db !important;
+}
+
+.navbar_active{
+    color: #3498db !important;
+    border-bottom: 1px #3498db solid;
+}
+.btn_style:hover{
+  background-color: #3498db !important;
+  color: white !important;
+  border-color: none !important;
+}
+
+.animated_image{
+  animation: up-down 2s infinite alternate-reverse both !important;
+}
+
+@keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px)
+  }
+}
